@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>My App</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>位置情報テスト</title>
 </head>
 <body>
-  <h1>Hello GitHub</h1>
-  <button onclick="alert('動いた！')">Click</button>
+  <h1>位置情報取得</h1>
+  <button onclick="getLocation()">位置情報を許可して取得</button>
+
+  <pre id="result">未取得</pre>
+
+  <script src="script.js"></script>
 </body>
 </html>
